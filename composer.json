@@ -1,0 +1,15 @@
+{
+    "name": "meduza/study-composer",
+    "description": "Учусь делать свои пакеты",
+    "license": "proprietary",
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
